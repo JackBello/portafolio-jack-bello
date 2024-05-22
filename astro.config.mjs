@@ -6,4 +6,16 @@ export default defineConfig({
   integrations: [astroI18next()],
   site: "https://jackbello.deno.dev",
   base: "/",
+  vite: {
+    server: {
+      watch: {
+        ignored: ["main.ts"],
+      },
+    },
+    build: {
+      rollupOptions: {
+        external: ["main.ts"],
+      },
+    },
+  },
 });

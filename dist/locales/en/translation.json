@@ -1,0 +1,464 @@
+{
+  "global": {
+    "footer": "Click <0>Cmd</0> + <1>K</1> to open the command palette.",
+    "hotkeypad": {
+      "placeholder": "Search command",
+      "section_0": "Network",
+      "title_0": "Visit",
+      "section_1": "Actions",
+      "title_1": "Print"
+    },
+    "sentences_letter": [
+      "See letter of recommendation from",
+      "Letter of recommendation from"
+    ],
+    "sentences_references": [
+      "Send an e-mail to",
+      "to mail",
+      "Call by phone to",
+      "to number",
+      "Call by whatsapp to",
+      "Call by telegram to"
+    ],
+    "sentences_hero": [
+      "Send an e-mail to",
+      "to mail",
+      "Call by phone to",
+      "to number",
+      "Call by whatsapp to",
+      "Call by telegram to",
+      "Visit the profile of",
+      "Visit the portfolio of",
+      "in"
+    ],
+    "sentences_projects": ["See the project", "View project source code"],
+    "words": ["See", "Current"],
+    "about": "About me",
+    "experience": "Work experience",
+    "education": "Education",
+    "certificates": "Certificates",
+    "projects": "Projects",
+    "skills": "Skills",
+    "languages": "Languages",
+    "references": "References",
+    "letter": "Letter of Recommendation"
+  },
+  "basics": {
+    "name": "Jacob Israel Bello Acosta",
+    "label": "Full Stack Developer with 5 years of experience",
+    "image": "/me.webp",
+    "email": "jacobello2000@gmail.com",
+    "phone": "+57 3174787381",
+    "url": "https://jackbello.deno.dev",
+    "summary": "5 years of experience as a Web Developer. Layout, design, animation of web applications. Database design, software architecture, deploy, Api Rest, creation and maintenance of scalable backend. Use of design patterns. SOLID knowledge.",
+    "location": {
+      "address": "",
+      "postalCode": "110821 ",
+      "city": "Bogota D.C",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jacob-b-203933245",
+        "url": "https://www.linkedin.com/in/jacob-b-203933245/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JackBello",
+        "url": "https://github.com/JackBello"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Creative Toolkit",
+      "position": "Web Developer",
+      "url": "https://www.bypeople.com/creative-toolkit",
+      "startDate": "2021-10-02",
+      "endDate": null,
+      "summary": "Creation and analysis of software requirements, detection and correction of errors. Debug and testing. Optimization, refactoring and decoupling of code. Software maintenance. Documentation, performance improvement. Web site design and layout.",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Node",
+        "Deno",
+        "MySQL",
+        "SASS",
+        "TypeScript",
+        "Tailwind",
+        "Vue (Vuex, Pinia, VueRouter, Quasar, Vuetify, Buefy, VuePrime)",
+        "Testing"
+      ]
+    },
+    {
+      "name": "SaludMia EPS",
+      "position": "Systems Technician",
+      "url": "https://www.saludmia.org",
+      "startDate": "2020-04-15",
+      "endDate": "2021-04-15",
+      "summary": "Maintenance and repair of equipment such as computers, routers, wifi, printers, network installation, software management and excel macro programming.",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Repair",
+        "Maintenance",
+        "Networks"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Servicio Nacional de Aprendizaje SENA",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+      "area": "Systems Technician",
+      "studyType": "Technician",
+      "startDate": "2020-04-15",
+      "endDate": "2021-04-15",
+      "score": "10.0",
+      "courses": [
+        "Computer repair",
+        "Maintenance",
+        "Networks",
+        "Flow diagrams",
+        "Pseudocode",
+        "Windows Server",
+        "Programming"
+      ]
+    },
+    {
+      "institution": "Instituto Suramericano Simón Bolívar",
+      "url": "https://www.suramericanosimonbolivar.com/",
+      "area": "Bachelor's Degree",
+      "studyType": "Secondary",
+      "startDate": "2018-08-15",
+      "endDate": "2018-12-15",
+      "score": "10.0",
+      "courses": []
+    },
+    {
+      "institution": "Liceo Antonio Jose de Sucre",
+      "url": "https://www.google.com/maps/place/Liceo+Antonio+Jos%C3%A9+de+Sucre/@10.4657177,-64.1742683,15z/data=!4m2!3m1!1s0x0:0x838d4bc159c81ba4?sa=X&ved=1t:2428&ictx=111",
+      "area": "Bachelor's Degree",
+      "studyType": "Secondary",
+      "startDate": "2013-07-15",
+      "endDate": "2018-08-15",
+      "score": "10.0",
+      "courses": []
+    },
+    {
+      "institution": "Escuela Andres Eloy Blanco",
+      "url": "https://www.google.com/maps/place/Andres+Eloy+Blanco+School/@10.4584732,-64.1862859,15z/data=!4m2!3m1!1s0x0:0xe9c8ad0aeb82fcff?sa=X&ved=1t:2428&ictx=111",
+      "area": "Primary",
+      "studyType": "Primary",
+      "startDate": "2008-02-15",
+      "endDate": "2013-02-15",
+      "score": "10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Work certificate SaludMia EPS",
+      "date": "2020-05-11",
+      "issuer": "SaludMia EPS",
+      "file": "/certificados/certificado-de-trabajo.pdf",
+      "url": "https://www.saludmia.org"
+    },
+    {
+      "name": "Office Automation Certificate",
+      "date": "2018-09-1",
+      "issuer": "SENA",
+      "file": "/certificados/certificado-de-ofimatica.pdf",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx"
+    },
+    {
+      "name": "HTML & CSS Certificate",
+      "date": "2018-09-16",
+      "issuer": "TemplateMonster",
+      "file": "/certificados/certificado-de-html-y-css.jpg",
+      "url": "https://certification.templatemonster.com/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Web development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Responsive Design",
+        "Flex",
+        "Grid"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Web development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Web development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "Deno",
+      "level": "Advanced",
+      "keywords": ["Web development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": ["Web development", "Backend", "PHP", "Server"]
+    },
+    {
+      "name": "Python",
+      "level": "Basic",
+      "keywords": ["Backend", "Python", "Server"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": ["Data Base", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version control", "Collaboration", "Source code", "Git"]
+    },
+    {
+      "name": "Vite",
+      "level": "Intermediate",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "JavaScript Library",
+        "Bundle"
+      ]
+    },
+    {
+      "name": "WebPack",
+      "level": "Intermediate",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "JavaScript Library",
+        "Bundle"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Dynamic Page"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Dynamic Page"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Static Page"
+      ]
+    },
+    {
+      "name": "Nuxt",
+      "level": "Intermediate",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "UI",
+        "SSR"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "PHP Framework",
+        "UI",
+        "SSR",
+        "Static Page"
+      ]
+    },
+    {
+      "name": "Godot",
+      "level": "Intermediate",
+      "keywords": ["GameDev", "Games", "Graphics"]
+    },
+    {
+      "name": "Poo",
+      "level": "Advanced",
+      "keywords": ["Development", "Frontend", "Backend", "Paradigm"]
+    },
+    {
+      "name": "Api Rest",
+      "level": "Advanced",
+      "keywords": ["Development", "Backend", "Architecture"]
+    },
+    {
+      "name": "UUID",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "JavaScript Library"
+      ]
+    },
+    {
+      "name": "Electron",
+      "level": "Advanced",
+      "keywords": [
+        "Software development",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "Applications"
+      ]
+    },
+    {
+      "name": "Fabric",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "Graphics"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate (A2)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Luis Villamisar",
+      "reference": "Professional",
+      "email": "villaluis9421@gmail.com",
+      "phone": "+57 3143210147"
+    },
+    {
+      "name": "Frank Carlos",
+      "reference": "Professional",
+      "email": "francarlos803@gmail.com",
+      "phone": "+57 3143881730"
+    },
+    {
+      "name": "Juan Pablo",
+      "reference": "Professional",
+      "email": "jp.iconshock@gmail.com",
+      "phone": "+57 3104245680"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    }
+  ]
+}
