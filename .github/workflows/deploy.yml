@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jackbello"
-          entrypoint: "index.html"
+          entrypoint: "server/entry.mjs"
           root: "dist"
