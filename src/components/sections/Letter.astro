@@ -1,19 +1,18 @@
 ---
+import { t } from "i18next";
 import Section from "../Section.astro";
-
-import { basics } from "@cv";
 ---
 
-<Section title="Carta de Recomendacion">
+<Section title={t("global.letter")}>
   <a
     href="/carta/carta-de-recomendacion.pdf"
-    title={`Ver carta de recomendacion de ${basics.name}`}
+    title={`${(t("global.sentences_letter", { returnObjects: true }) as string[])[0]} ${t("basics.name")}`}
     target="_blank"
     rel="noopener noreferrer"
   >
     <img
       src="/carta/carta-de-recomendacion.png"
-      alt={`Carta de recomendacion de ${basics.name}`}
+      alt={`${(t("global.sentences_letter", { returnObjects: true }) as string[])[1]}} ${t("basics.name")}`}
     />
   </a>
 </Section>

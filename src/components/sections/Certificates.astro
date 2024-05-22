@@ -1,10 +1,15 @@
 ---
+import { t } from "i18next";
 import Section from "../Section.astro";
 
-import { certificates } from "@cv";
+import type { Certificates } from "@/cv";
+
+const certificates = t("certificates", {
+  returnObjects: true,
+}) as Certificates[];
 ---
 
-<Section title="Certificados">
+<Section title={t("global.certificates")}>
   <ul>
     {
       certificates.map(({ name, url, date, file, issuer }) => {

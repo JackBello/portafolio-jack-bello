@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv";
+import { t } from "i18next";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
@@ -10,8 +10,14 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
+import type { Basics } from "@/cv";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, phone, email, url } = t(
+  "basics",
+  {
+    returnObjects: true,
+  }
+) as Basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -27,14 +33,14 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
 const githubUrl = githubInfo?.url;
 
 const printInfo = [
-  `<a href="mailto:${email}" title="Enviar un correo electrónico a ${name} al correo ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
-  `<a href="tel:${phone}" title="Llamar por teléfono a ${name} al número ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
-  `<a href="${linkedUrl}" title="Visitar el perfil de ${name} en ${linkedUrl}" target="_blank" rel="noopener noreferrer">${linkedUrl}</a>`,
-  `<a href="${githubUrl}" title="Visitar el perfil de ${name} en ${githubUrl}" target="_blank" rel="noopener noreferrer">${githubUrl}</a>`,
-  `<a href="https://jackbello.deno.dev" title="Visitar el portafolio de ${name} en https://jackbello.deno.dev" target="_blank" rel="noopener noreferrer">https://jackbello.deno.dev</a>`,
+  `<a href="mailto:${email}" title="${(t("global.sentences_hero", { returnObjects: true }) as string)[0]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[1]} ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
+  `<a href="tel:${phone}" title="${(t("global.sentences_hero", { returnObjects: true }) as string)[2]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[3]} ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
+  `<a href="${linkedUrl}" title="${(t("global.sentences_hero", { returnObjects: true }) as string)[6]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[8]} ${linkedUrl}" target="_blank" rel="noopener noreferrer">${linkedUrl}</a>`,
+  `<a href="${githubUrl}" title="${(t("global.sentences_hero", { returnObjects: true }) as string)[6]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[8]} ${githubUrl}" target="_blank" rel="noopener noreferrer">${githubUrl}</a>`,
+  `<a href="${url}" title="${(t("global.sentences_hero", { returnObjects: true }) as string)[7]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[8]} ${url}" target="_blank" rel="noopener noreferrer">${url}</a>`,
 ]
   .filter(Boolean)
-  .join("<br>");
+  .join("<br><br>");
 ---
 
 <Section>
@@ -54,7 +60,7 @@ const printInfo = [
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`${(t("global.sentences_hero", { returnObjects: true }) as string)[0]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[1]} ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +72,7 @@ const printInfo = [
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`${(t("global.sentences_hero", { returnObjects: true }) as string)[2]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[3]} ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,7 +84,7 @@ const printInfo = [
           phone && (
             <a
               href={`https://api.whatsapp.com/send/?phone=${phone.substring(1).replace(" ", "")}&text&type=phone_number&app_absent=0`}
-              title={`Llamar por whatsapp a ${name} al número ${phone}`}
+              title={`${(t("global.sentences_hero", { returnObjects: true }) as string)[4]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[3]} ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,7 +96,7 @@ const printInfo = [
           phone && (
             <a
               href={`https://t.me/${phone.replace(" ", "")}`}
-              title={`Llamar por telegram a ${name} al número ${phone}`}
+              title={`${(t("global.sentences_hero", { returnObjects: true }) as string)[4]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[3]} ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -105,7 +111,7 @@ const printInfo = [
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`${(t("global.sentences_hero", { returnObjects: true }) as string)[6]} ${name} ${(t("global.sentences_hero", { returnObjects: true }) as string)[8]} ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

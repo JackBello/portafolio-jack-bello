@@ -1,17 +1,22 @@
 ---
+import { t } from "i18next";
 import Section from "../Section.astro";
 
-import { work } from "@cv";
+import type { Work } from "@/cv";
+
+const work = t("work", { returnObjects: true }) as Work[];
 ---
 
-<Section title="Experiencia laboral">
+<Section title={t("global.experience")}>
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+            endDate != null
+              ? new Date(endDate).getFullYear()
+              : (t("global.words", { returnObjects: true }) as string[])[1];
 
           return (
             <li>
@@ -19,7 +24,11 @@ import { work } from "@cv";
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
+                      <a
+                        href={url}
+                        title={`${(t("global.words", { returnObjects: true }) as string[])[0]} ${name}`}
+                        target="_blank"
+                      >
                         {name}
                       </a>
                     </h3>

@@ -1,10 +1,13 @@
 ---
+import { t } from "i18next";
 import Section from "../Section.astro";
 
-import { languages } from "@cv";
+import type { Languages } from "@/cv";
+
+const languages = t("languages", { returnObjects: true }) as Languages[];
 ---
 
-<Section title="Idiomas">
+<Section title={t("global.languages")}>
   <ul>
     {
       languages.map(({ fluency, language }) => {

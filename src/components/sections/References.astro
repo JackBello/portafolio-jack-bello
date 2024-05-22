@@ -1,23 +1,27 @@
 ---
+import { t } from "i18next";
 import Phone from "@/icons/Phone.astro";
 import Section from "../Section.astro";
 
-import { references } from "@cv";
 import Whatsapp from "@/icons/whatsapp.astro";
 import Telegram from "@/icons/telegram.astro";
 import Mail from "@/icons/Mail.astro";
+
+import type { References } from "@/cv";
+
+const references = t("references", { returnObjects: true }) as References[];
 ---
 
-<Section title="Referencias">
+<Section title={t("global.references")}>
   <ul>
     {
       references.map(({ email, name, phone, reference }) => {
         const printInfo = [
-          `<a href="mailto:${email}" title="Enviar un correo electrónico a ${name} al correo ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
-          `<a href="tel:${phone}" title="Llamar por teléfono a ${name} al número ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
+          `<a href="mailto:${email}" title="${(t("global.sentences_references", { returnObjects: true }) as string)[0]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[1]} ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
+          `<a href="tel:${phone}" title="${(t("global.sentences_references", { returnObjects: true }) as string)[2]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[3]} ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
         ]
           .filter(Boolean)
-          .join("<br>");
+          .join("<br><br>");
 
         return (
           <li>
@@ -36,7 +40,7 @@ import Mail from "@/icons/Mail.astro";
                 {email && (
                   <a
                     href={`mailto:${email}`}
-                    title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                    title={`${(t("global.sentences_references", { returnObjects: true }) as string)[0]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[1]} ${email}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -46,7 +50,7 @@ import Mail from "@/icons/Mail.astro";
                 {phone && (
                   <a
                     href={`tel:${phone}`}
-                    title={`Llamar por teléfono a ${name} al número ${phone}`}
+                    title={`${(t("global.sentences_references", { returnObjects: true }) as string)[2]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[3]} ${phone}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -56,7 +60,7 @@ import Mail from "@/icons/Mail.astro";
                 {phone && (
                   <a
                     href={`https://api.whatsapp.com/send/?phone=${phone.substring(1).replace(" ", "")}&text&type=phone_number&app_absent=0`}
-                    title={`Llamar por whatsapp a ${name} al número ${phone}`}
+                    title={`${(t("global.sentences_references", { returnObjects: true }) as string)[4]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[3]} ${phone}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -66,7 +70,7 @@ import Mail from "@/icons/Mail.astro";
                 {phone && (
                   <a
                     href={`https://t.me/${phone.replace(" ", "")}`}
-                    title={`Llamar por telegram a ${name} al número ${phone}`}
+                    title={`${(t("global.sentences_references", { returnObjects: true }) as string)[5]} ${name} ${(t("global.sentences_references", { returnObjects: true }) as string)[3]} ${phone}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

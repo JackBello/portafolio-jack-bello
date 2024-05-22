@@ -1,16 +1,21 @@
 ---
+import { t } from "i18next";
 import Section from "../Section.astro";
 
-import { education } from "@cv";
+import type { Education } from "@/cv";
+
+const education = t("education", { returnObjects: true }) as Education[];
 ---
 
-<Section title="Educación">
+<Section title={t("global.education")}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area, url }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          endDate != null
+            ? new Date(endDate).getFullYear()
+            : (t("global.words", { returnObjects: true }) as string[])[1];
 
         return (
           <li>
@@ -21,7 +26,13 @@ import { education } from "@cv";
                     {url ? (
                       <a
                         href={url}
-                        title={`Ver ${institution}`}
+                        title={`${
+                          (
+                            t("global.words", {
+                              returnObjects: true,
+                            }) as string[]
+                          )[0]
+                        } ${institution}`}
                         target="_blank"
                       >
                         {institution}

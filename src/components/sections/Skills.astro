@@ -1,5 +1,5 @@
 ---
-import { skills } from "@cv";
+import { t } from "i18next";
 import Section from "../Section.astro";
 import HTML from "@/icons/html.astro";
 import CSS from "@/icons/css.astro";
@@ -31,6 +31,8 @@ import Webpack from "@/icons/webpack.astro";
 import Electron from "@/icons/electron.astro";
 import Fabric from "@/icons/fabric.astro";
 import Rest from "@/icons/rest.astro";
+
+import type { Skills } from "@/cv";
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -64,9 +66,11 @@ const SKILLS_ICONS: Record<string, any> = {
   Fabric,
   Rest,
 };
+
+const skills = t("skills", { returnObjects: true }) as Skills[];
 ---
 
-<Section title="Habilidades">
+<Section title={t("global.skills")}>
   <ul>
     {
       skills.map(({ name, keywords, level }) => {
