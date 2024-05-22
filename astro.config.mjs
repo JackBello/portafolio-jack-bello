@@ -9,6 +9,7 @@ export default defineConfig({
   output: "server",
   adapter: deno(),
   site: "https://jackbello.deno.dev",
+  base: "/",
   vite: {
     plugins: [sharpPlugin()],
   },
