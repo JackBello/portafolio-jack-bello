@@ -19,3 +19,5 @@ pnpm-debug.log*
 
 # local folders
 .history
+
+cv.json

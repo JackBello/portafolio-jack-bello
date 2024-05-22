@@ -23,17 +23,17 @@ const { title } = Astro.props;
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={t("basics.summmary")} />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="/card.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta
-      property="twitter:domain"
+      name="twitter:domain"
       content={t("basics.url").split("//")[1] ?? ""}
     />
-    <meta property="twitter:url" content={t("basics.url")} />
+    <meta name="twitter:url" content={t("basics.url")} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={t("basics.summmary")} />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:image" content="/card.png" />
     <HeadHrefLangs />
   </head>
   <body>

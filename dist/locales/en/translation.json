@@ -50,7 +50,7 @@
     "email": "jacobello2000@gmail.com",
     "phone": "+57 3174787381",
     "url": "https://jackbello.deno.dev",
-    "summary": "5 years of experience as a Web Developer. Layout, design, animation of web applications. Database design, software architecture, deploy, Api Rest, creation and maintenance of scalable backend. Use of design patterns. SOLID knowledge.",
+    "summary": "5 years of experience as a Web Developer. Layout, Design, Web Application Animation. Database design, software architecture, deploy, Api Rest, creation and maintenance of scalable backend. Use of design patterns. SOLID knowledge.",
     "location": {
       "address": "",
       "postalCode": "110821 ",
@@ -150,26 +150,6 @@
       "endDate": "2018-12-15",
       "score": "10.0",
       "courses": []
-    },
-    {
-      "institution": "Liceo Antonio Jose de Sucre",
-      "url": "https://www.google.com/maps/place/Liceo+Antonio+Jos%C3%A9+de+Sucre/@10.4657177,-64.1742683,15z/data=!4m2!3m1!1s0x0:0x838d4bc159c81ba4?sa=X&ved=1t:2428&ictx=111",
-      "area": "Bachelor's Degree",
-      "studyType": "Secondary",
-      "startDate": "2013-07-15",
-      "endDate": "2018-08-15",
-      "score": "10.0",
-      "courses": []
-    },
-    {
-      "institution": "Escuela Andres Eloy Blanco",
-      "url": "https://www.google.com/maps/place/Andres+Eloy+Blanco+School/@10.4584732,-64.1862859,15z/data=!4m2!3m1!1s0x0:0xe9c8ad0aeb82fcff?sa=X&ved=1t:2428&ictx=111",
-      "area": "Primary",
-      "studyType": "Primary",
-      "startDate": "2008-02-15",
-      "endDate": "2013-02-15",
-      "score": "10.0",
-      "courses": []
     }
   ],
   "awards": [
@@ -199,7 +179,7 @@
       "name": "HTML & CSS Certificate",
       "date": "2018-09-16",
       "issuer": "TemplateMonster",
-      "file": "/certificados/certificado-de-html-y-css.jpg",
+      "file": "/certificados/certificado-de-html-y-css.webp",
       "url": "https://certification.templatemonster.com/"
     }
   ],
