@@ -1,275 +1,420 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Jacob Israel Bello Acosta",
+    "label": "Full Stack Developer con 5 años de experiencia",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "email": "jacobello2000@gmail.com",
+    "phone": "+57 3174787381",
     "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "5 años de experiencia como Desarrollador Web. Maquetando, diseñando, animando aplicaciones web. Diseño de base de datos, arquitectura de software, deploy, Api Rest, creación y mantenimiento de backend escalables. Uso de patrones de diseños. Conocimientos de SOLID.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "postalCode": "110821 ",
+      "city": "Bogota D.C",
       "countryCode": "ES",
-      "region": "España"
+      "region": "Colombia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "jacob-b-203933245",
+        "url": "https://www.linkedin.com/in/jacob-b-203933245/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "JackBello",
+        "url": "https://github.com/JackBello"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Creative Toolkit",
+      "position": "Desarrollador Web",
+      "url": "https://www.bypeople.com/creative-toolkit",
+      "startDate": "2021-10-02",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Creacion y analizis de requerimientos para el software, deteccion y correcion de errores. Debug y testing. Optimiazion, refactorizacion y desacoplado de codigo. Mantenimiento de software. Documentacion, Mejorar performance. Maquetar y diseñar sitios web.",
       "highlights": [
-        "Started the company"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Node",
+        "Deno",
+        "MySQL",
+        "SASS",
+        "TypeScript",
+        "Tailwind",
+        "Vue (Vuex, Pinia, VueRouter, Quasar, Vuetify, Buefy, VuePrime)",
+        "Testing"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "SaludMia EPS",
+      "position": "Tecnico En Sistemas",
+      "url": "https://www.saludmia.org",
+      "startDate": "2020-04-15",
+      "endDate": "2021-04-15",
+      "summary": "Mantenimiento y reparación de los equipos, como computadoras, router, wifi, impresoras, instalación de redes, manejo de programas informáticos y programación de macros en excel.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Reparacion",
+        "Mantenimiento",
+        "Redes"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Servicio Nacional de Aprendizaje SENA",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+      "area": "Tecnico En Sistemas",
+      "studyType": "Tecnico",
+      "startDate": "2020-04-15",
+      "endDate": "2021-04-15",
+      "score": "10.0",
+      "courses": [
+        "Reparacion de computadoras",
+        "Mantenimiento",
+        "Redes",
+        "Diagramas de flujos",
+        "Pseudocodigo",
+        "Windows Server",
+        "Programacion"
+      ]
+    },
+    {
+      "institution": "Instituto Suramericano Simón Bolívar",
+      "url": "https://www.suramericanosimonbolivar.com/",
+      "area": "Bachillerato",
+      "studyType": "Secundaria",
+      "startDate": "2018-08-15",
+      "endDate": "2018-12-15",
+      "score": "10.0",
+      "courses": []
+    },
+    {
+      "institution": "Liceo Antonio Jose de Sucre",
+      "url": "https://www.google.com/maps/place/Liceo+Antonio+Jos%C3%A9+de+Sucre/@10.4657177,-64.1742683,15z/data=!4m2!3m1!1s0x0:0x838d4bc159c81ba4?sa=X&ved=1t:2428&ictx=111",
+      "area": "Bachillerato",
+      "studyType": "Secundaria",
+      "startDate": "2013-07-15",
+      "endDate": "2018-08-15",
+      "score": "10.0",
+      "courses": []
+    },
+    {
+      "institution": "Escuela Andres Eloy Blanco",
+      "url": "https://www.google.com/maps/place/Andres+Eloy+Blanco+School/@10.4584732,-64.1862859,15z/data=!4m2!3m1!1s0x0:0xe9c8ad0aeb82fcff?sa=X&ved=1t:2428&ictx=111",
+      "area": "Primaria",
+      "studyType": "Primaria",
+      "startDate": "2008-02-15",
+      "endDate": "2013-02-15",
+      "score": "10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificado de trabajo SaludMia EPS",
+      "date": "2020-05-11",
+      "issuer": "SaludMia EPS",
+      "file": "/certificados/certificado-de-trabajo.pdf",
+      "url": "https://www.saludmia.org"
+    },
+    {
+      "name": "Certificado de Ofimatica",
+      "date": "2018-09-1",
+      "issuer": "SENA",
+      "file": "/certificados/certificado-de-ofimatica.pdf",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx"
+    },
+    {
+      "name": "Certificado de HTML & CSS",
+      "date": "2018-09-16",
+      "issuer": "TemplateMonster",
+      "file": "/certificados/certificado-de-html-y-css.jpg",
+      "url": "https://certification.templatemonster.com/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive",
+        "Flex",
+        "Grid"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Deno",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "PHP", "Servidor"]
+    },
+    {
+      "name": "Python",
+      "level": "Basico",
+      "keywords": ["Backend", "Python", "Servidor"]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
+      "name": "Vite",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
+    },
+    {
+      "name": "WebPack",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
     },
     {
       "name": "React",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Dynamic Page"
+      ]
+    },
+    {
+      "name": "Vue",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Dynamic Page"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI",
+        "Static Page"
+      ]
+    },
+    {
+      "name": "Nuxt",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "UI",
+        "SSR"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "PHP Framework",
+        "UI",
+        "SSR",
+        "Static Page"
+      ]
+    },
+    {
+      "name": "Godot",
+      "level": "Intermedio",
+      "keywords": ["GameDev", "Games", "Graphics"]
+    },
+    {
+      "name": "Poo",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo", "Frontend", "Backend", "Paradigma"]
+    },
+    {
+      "name": "Api Rest",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo", "Backend", "Arquitecura"]
+    },
+    {
+      "name": "UUID",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo web",
+        "Frontend",
+        "Backend",
+        "JavaScript Library"
+      ]
+    },
+    {
+      "name": "Electron",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo de Software",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "Aplicaciones"
+      ]
+    },
+    {
+      "name": "Fabric",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo de web",
+        "Frontend",
+        "Backend",
+        "JavaScript Library",
+        "Graphics"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Ingles",
+      "fluency": "Intermedio"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Luis Villamisar",
+      "reference": "Profesional",
+      "email": "villaluis9421@gmail.com",
+      "phone": "+57 3143210147"
+    },
+    {
+      "name": "Frank Carlos",
+      "reference": "Profesional",
+      "email": "francarlos803@gmail.com",
+      "phone": "+57 3143881730"
+    },
+    {
+      "name": "Juan Pablo",
+      "reference": "Profesional",
+      "email": "jp.iconshock@gmail.com",
+      "phone": "+57 3104245680"
+    }
+  ],
   "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
     {
       "name": "Pruebas Técnicas",
       "isActive": true,
       "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
       "url": "https://pruebastecnicas.com",
       "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
     }
   ]
 }

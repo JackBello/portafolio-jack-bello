@@ -1,0 +1,134 @@
+---
+import Phone from "@/icons/Phone.astro";
+import Section from "../Section.astro";
+
+import { references } from "@cv";
+import Whatsapp from "@/icons/whatsapp.astro";
+import Telegram from "@/icons/telegram.astro";
+import Mail from "@/icons/Mail.astro";
+---
+
+<Section title="Referencias">
+  <ul>
+    {
+      references.map(({ email, name, phone, reference }) => {
+        const printInfo = [
+          `<a href="mailto:${email}" title="Enviar un correo electrónico a ${name} al correo ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
+          `<a href="tel:${phone}" title="Llamar por teléfono a ${name} al número ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
+        ]
+          .filter(Boolean)
+          .join("<br>");
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <h4>{reference}</h4>
+                </div>
+              </header>
+
+              <footer class="print">
+                <Fragment set:html={printInfo} />
+              </footer>
+              <footer class="no-print">
+                {email && (
+                  <a
+                    href={`mailto:${email}`}
+                    title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Mail />
+                  </a>
+                )}
+                {phone && (
+                  <a
+                    href={`tel:${phone}`}
+                    title={`Llamar por teléfono a ${name} al número ${phone}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Phone />
+                  </a>
+                )}
+                {phone && (
+                  <a
+                    href={`https://api.whatsapp.com/send/?phone=${phone.substring(1).replace(" ", "")}&text&type=phone_number&app_absent=0`}
+                    title={`Llamar por whatsapp a ${name} al número ${phone}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Whatsapp />
+                  </a>
+                )}
+                {phone && (
+                  <a
+                    href={`https://t.me/${phone.replace(" ", "")}`}
+                    title={`Llamar por telegram a ${name} al número ${phone}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Telegram />
+                  </a>
+                )}
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+</style>

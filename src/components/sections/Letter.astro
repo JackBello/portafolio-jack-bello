@@ -1,0 +1,30 @@
+---
+import Section from "../Section.astro";
+
+import { basics } from "@cv";
+---
+
+<Section title="Carta de Recomendacion">
+  <a
+    href="/carta/carta-de-recomendacion.pdf"
+    title={`Ver carta de recomendacion de ${basics.name}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/carta/carta-de-recomendacion.png"
+      alt={`Carta de recomendacion de ${basics.name}`}
+    />
+  </a>
+</Section>
+
+<style>
+  a {
+    width: 100%;
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+  }
+</style>
