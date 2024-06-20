@@ -78,7 +78,7 @@
       "url": "https://www.bypeople.com/creative-toolkit",
       "startDate": "2021-10-02",
       "endDate": null,
-      "summary": "Creación y análisis de requisitos de software, detección y corrección de errores. Depuración y pruebas. Optimización, refactorización y desacoplamiento de código. Mantenimiento del software. Documentación, mejora del rendimiento. Diseño y maquetación de sitios web.",
+      "summary": "Creación y análisis de requisitos de software, detección y corrección de errores. Depuración y pruebas. Optimización, refactorización y desacoplamiento de código. Mantenimiento del software. Documentación, mejora del rendimiento. Diseño y maquetación de sitios web. Manejo de APIS de redes sociales y AI.",
       "highlights": [
         "HTML",
         "CSS",
@@ -91,7 +91,8 @@
         "TypeScript",
         "Tailwind",
         "Vue (Vuex, Pinia, VueRouter, Quasar, Vuetify, Buefy, VuePrime)",
-        "Testing"
+        "Testing",
+        "APIS"
       ]
     },
     {
@@ -433,12 +434,33 @@
   ],
   "projects": [
     {
-      "name": "Pruebas Técnicas",
+      "name": "ByPeople - Quote Maker",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "description": "Quote maker es un generador de diseños automaticos que usa frases de diferentes topicos, puedes generar diseños de forma infinitas. Descargarlos, editarlos o compartirlos en tus redes sociales.",
+      "highlights": ["Quotes", "Design", "Edition"],
+      "url": "https://www.bypeople.com/quote-maker/",
+      "github": ""
+    },
+    {
+      "name": "ByPeople - Post Sheduler",
+      "isActive": true,
+      "description": "Post Scheduler es un potente manejador de redes sociales donde puedes crear publicaciones para tus multiples redes, donde puedes cargar imagenes, videos, usar fotos, gifs, generar diseños automaticos,   o usar el generador de textos potenciado con AI. Puedes compartir tu publicacion en multiples redes sociales o agendarla para una fecha en especifico.",
+      "highlights": ["Networks", "Social Media Management", "Powered with AI"],
+      "url": "https://www.bypeople.com/maker/scheduler",
+      "github": ""
+    },
+    {
+      "name": "ByPeople - Composer",
+      "isActive": true,
+      "description": "Composer es un creador de contenido para redes sociales o sitios web. Puedes crear desde infografias hasta presentaciones. Donde puedes editar, agregarle imagenes, iconos, emojis. Cambiar los diferentes estilos. Generar la imagen, para luego descargarla en PNG, WEBP o PPTX en el caso de los slides. Si no tienes idea de que escribir, no hay problema. Esta herramienta esta potenciada con AI para que generes contenido rapido para tu contenido.",
+      "highlights": [
+        "slides",
+        "Infographics",
+        "Automatic Content",
+        "Powered with AI"
+      ],
+      "url": "https://www.bypeople.com/composer/infographic",
+      "github": ""
     }
   ]
 }
